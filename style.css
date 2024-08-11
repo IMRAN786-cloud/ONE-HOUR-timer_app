@@ -1,0 +1,151 @@
+* {
+
+    font-family: 'jura';
+    background-color: rgb(242, 232, 232);
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(20, 21, 19);
+
+}
+
+.container {
+    background-color: rgb(12, 18, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-block: block;
+    padding: 5px;
+    padding-inline-end: 5px;
+    border:1px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(64, 234, 30) ;
+    background-color: rgb(4, 5, 5);
+
+}
+
+.container h1 {
+    box-shadow: 10px 10px 15px;
+
+     background-color: rgb(3, 6, 1);
+     color:rgb(144, 255, 100)
+     
+
+     
+
+}
+
+#title {
+    
+     font-size: 1rem;
+
+}
+
+#mybuttons {
+
+        margin-top: 5px;
+
+
+}
+
+
+
+
+
+#startbtn  {
+
+       background-color:rgb(10, 7, 1);
+       font-size: 1rem;
+       border-radius: 5px;
+       color: rgb(84, 185, 53);
+       box-shadow: 10px 15px 15px ;
+       padding: 8px;
+       cursor: pointer;
+       
+}
+
+#startbtn:hover{
+
+       background-color: chartreuse;
+       color: black;
+
+
+}
+
+#stopbtn {
+
+    
+    background-color:rgb(10, 7, 1);
+    font-size: 1rem;
+    border-radius: 5px;
+    color: rgb(87, 198, 53);
+    box-shadow: 10px 15px 15px ;
+    cursor: pointer;
+    padding: 8px;
+   
+    
+
+}
+#stopbtn:hover{
+
+    background-color: chartreuse;
+    color: black;
+
+
+}
+
+    
+     
+#resetbtn {
+    
+      
+    background-color:rgb(10, 7, 1);
+    font-size: 1rem;
+    border-radius: 5px;
+    color: rgb(87, 198, 53);
+    box-shadow: 10px 15px 15px ;
+    cursor: pointer;
+    padding: 8px;
+  
+
+
+}
+
+#resetbtn:hover{
+
+    background-color: chartreuse;
+    color: black;
+
+
+}
+
+      
+#minutes{
+    
+     color: rgb(133, 255, 96);
+     border-radius:10px ;
+     background-color: black;
+     padding: 5px;
+  
+    
+}
+
+#seconds {
+
+        
+     color: rgb(96, 247, 101);
+     border-radius: 10px;
+     background-color: black;
+     padding: 5px;
+
+}
